@@ -1,0 +1,12 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "Rossmann store sales price prediction"
+authors = [{ name = "Chandan", email = "chandankumarswain3467@gmail.com" }]
+readme = "README.md"
+
+[tool.setuptools]
+packages = { find = {} }
+
+[tool.setuptools.dynamic]
+dependencies = { file = 'requirements.txt' }
